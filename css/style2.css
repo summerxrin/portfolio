@@ -158,6 +158,7 @@ a{
     margin-right: 24px;
     transform: translateX(20px);
     transition: all .3s ease;
+    color: #fff;
 }
 
 .navbar1 .nav-menu li .dot span::before {
