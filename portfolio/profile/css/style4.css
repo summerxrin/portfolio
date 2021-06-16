@@ -1,0 +1,186 @@
+a{
+    text-decoration: none;
+    color: #fff !important;
+}
+
+#project_main {
+    background: rgba(57, 132, 243, 0.2) !important;
+}
+
+.project_title {
+    color: #000 !important;
+    font-size: 100px !important;
+    font-weight: 500 !important;
+}
+
+.project_title span:before,
+.project_title span:after {
+    background: #3984f3 !important;
+    top: 89px !important;
+    width: 50px !important;
+    height: 7px !important;
+}
+
+.project_title span:before {
+    margin-left: -50px !important;
+}
+
+.project_title span:after {
+    margin-right: -50px !important;
+}
+
+.logo_img {
+    background-size: contain !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.goback {
+    display: inline-block;
+    width: 40px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.goback img {
+    width: 100%;
+}
+
+.web_btn {
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.web_btn button {
+    border: 0;
+    background: #3984f3;
+    padding: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.timeline:before {
+    display: none;
+}
+
+.timeline .timeline-heading > div h3{
+    background: #3984f3;
+    color: #fff;
+}
+
+.inner_img{
+    margin-bottom: 40px !important;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+
+.inner_img div img{
+    width: 100%;
+}
+
+.top1 a{
+    background: #3984f3 !important;
+    color: #fff !important;
+}
+
+/* Start Nav Styles 디자인트래블 */
+.navbar1 {
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+}
+
+.navbar1 .nav-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar1 .nav-menu li {
+    position: relative;
+    min-width: 200px;
+    text-align: right;
+}
+
+.navbar1 .nav-menu li .dot {
+    display: block;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.navbar1 .nav-menu li .dot::before,
+.navbar1 .nav-menu li .dot::after {
+    display: block;
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    top: 50%;
+    transition: all .3s ease;
+}
+
+.navbar1 .nav-menu li .dot::before {
+    width: 5px;
+    height: 5px;
+    right: 0;
+    border: 2px solid #091e40;
+    transform: translateY(-50%);
+}
+
+.navbar1 .nav-menu li .dot::after {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #3984f3;
+    right: -5px;
+    transform: translateY(-50%) scale(0);
+}
+
+.navbar1 .nav-menu li .dot.active::before,
+.navbar1 .nav-menu li:hover .dot::before {
+    background: #3984f3;
+    border-color: #3984f3;
+}
+
+.navbar1 .nav-menu li .dot.active::after,
+.navbar1 .nav-menu li:hover .dot::after {
+    transform: translateY(-50%) scale(1);
+}
+
+.navbar1 .nav-menu li .dot span {
+    display: inline-block;
+    opacity: 0;
+    text-transform: capitalize;
+    background-color: #3984f3;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-right: 24px;
+    transform: translateX(20px);
+    transition: all .3s ease;
+    color: #fff;
+}
+
+.navbar1 .nav-menu li .dot span::before {
+    display: block;
+    position: absolute;
+    content: '';
+    border-left: 7px solid #3984f3;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    top: 50%;
+    transform: translate(7px, -50%);
+    right: 0;
+    transition: all .3s ease;
+}
+
+
+.navbar1 .nav-menu li:hover .dot span {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+/* End Nav Styles */
